@@ -25,8 +25,8 @@ func main(){
 	handler := Handler {
 		sqlClient: sqlClient,
 	}
-
 	handler.HandleInsertTransactionWithoutTag()
+
 
 	
 }
